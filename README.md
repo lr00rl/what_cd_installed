@@ -11,8 +11,9 @@
 ## from apt
 
 - git
+    - git-lfs
+    - git-delta
 - tmux
-- git-delta
 - btop
 - kitty
 - wezterm: https://github.com/wezterm/wezterm?tab=readme-ov-file
