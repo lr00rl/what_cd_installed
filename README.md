@@ -40,6 +40,7 @@
 - flameshot
 - copyq: used for clipboard manager, but it is sucks, use fcitx5-rime instead
 - cloc
+- ffmpeg
 
 
 ## from npm
@@ -69,6 +70,18 @@
 > better directly use picgo-core: https://github.com/PicGo/PicGo-Core
 > default config path: `~/.picgo`
 - iriun webcam: https://iriun.net/
+- pan.baidu: https://pan.baidu.com/download#linux
+    - 没办法，不下载这个没法下载文件（悲
+- croc: `curl https://getcroc.schollz.com | bash`
+- Neovide: https://github.com/neovide/neovide
+    - `sudo ln -s /opt/Neovide/neovide.AppImage /usr/local/bin/neovide`
+- zed: `curl -f https://zed.dev/install.sh | sh`
+
+
+## compiled myself
+
+- youtube-dl: https://github.com/ytdl-org/youtube-dl
+    - make yourself
 
 
 ## equipped by default (mostly)
