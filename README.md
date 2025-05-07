@@ -15,7 +15,7 @@
     - git-delta
 - tmux
 - btop
-- kitty
+- kitty: `curl -L https://sw.kovidgoyal.net/kitty/installer.sh | sh /dev/stdin`
 - wezterm: https://github.com/wezterm/wezterm?tab=readme-ov-file
     - give it up for now[2025-05-01], it is so much slow and not smooth than kitty, not even ghostty
 - neovim: better build from source
@@ -37,10 +37,12 @@
 - typora: and yes, you know the crack for it
 - nvitop
 - nvtop
-- flameshot
+- flameshot: use Snipaste instead
 - copyq: used for clipboard manager, but it is sucks, use fcitx5-rime instead
 - cloc
 - ffmpeg
+- vlc
+- mpv: mpv is nice!
 
 
 ## from npm
@@ -105,6 +107,7 @@
 - jq: Command-line JSON processor
 - grep
 - m4: macro processor
+- nc: TCP/IP swiss army knife
 - lzop: lzop is a file compressor very similar to gzip.  lzop favors speed over compression ratio.
 - sed
 - sh
