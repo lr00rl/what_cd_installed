@@ -1,5 +1,5 @@
 >
-> for the config, you can check the repo: [lr00rl/cdxx0-dotfiles](https://github.com/lr00rl/cdxx0-dotfiles)
+> for the config, you can check the repo: [lr00rl/cdxx0-dotfiles](https://github.com/lr00rl/cdxx0-dotfile)
 >
 
 ## for dev tools,lang
