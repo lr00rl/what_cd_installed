@@ -43,6 +43,10 @@
 - ffmpeg
 - vlc
 - mpv: mpv is nice!
+- alacritty: A cross-platform, OpenGL terminal emulator.
+    - github pages: https://github.com/alacritty/alacritty
+    - official website: https://alacritty.org/
+- cadaver: command line WebDAV client
 
 
 ## from npm
