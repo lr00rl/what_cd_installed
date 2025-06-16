@@ -1,0 +1,76 @@
+> 
+> `for dir in */; do [ -d "${dir}.git" ] && echo "$(basename "$dir"): $(grep 'url =' "${dir}.git/config" | head -1 | sed 's/.*url = //')"; done`
+> 
+
+```shell
+A2A: git@github.com:google/A2A.git
+alacritty: git@github.com:alacritty/alacritty.git
+alist: git@github.com:AlistGo/alist.git
+Apache_Hadoop: git@github.com:apache/hadoop.git
+Apache_Hbase: git@github.com:apache/hbase.git
+Apache_kafka: git@github.com:apache/kafka.git
+Apache_spark: git@github.com:apache/spark.git
+bcc: git@github.com:iovisor/bcc.git
+BitNet: https://github.com/microsoft/BitNet.git
+bleve: git@github.com:blevesearch/bleve.git
+Bochs: git@github.com:bochs-emu/Bochs.git
+bubbletea: git@github.com:charmbracelet/bubbletea.git
+Byte_netcap: git@github.com:bytedance/netcap.git
+cherry-studio: git@github.com:CherryHQ/cherry-studio.git
+cipherscan: git@github.com:mozilla/cipherscan.git
+croc: git@github.com:schollz/croc.git
+ctags: https://github.com/universal-ctags/ctags.git
+cython: git@github.com:cython/cython.git
+deskflow_cdcdLearn: git@github.com:lr00rl/deskflow_cdcdLearn.git
+elasticsearch: git@github.com:elastic/elasticsearch.git
+Facebook_rocksdb: git@github.com:facebook/rocksdb.git
+fiber: git@github.com:gofiber/fiber.git
+frp: git@github.com:fatedier/frp.git
+fx: git@github.com:antonmedv/fx.git
+geogebra: git@github.com:geogebra/geogebra.git
+gf: https://github.com/nakst/gf.git
+ghostty: https://github.com/ghostty-org/ghostty
+Git: git@github.com:git/git.git
+go: git@github.com:golang/go.git
+go-sqlite3: git@github.com:mattn/go-sqlite3.git
+lazygit: https://github.com/jesseduffield/lazygit.git
+less_command: git@github.com:gwsw/less.git
+lightdm: https://git.launchpad.net/~rhansen/lightdm/+git/main
+lightllm: git@github.com:ModelTC/lightllm.git
+ly: git@github.com:fairyglade/ly.git
+marko-riscv: git@github.com:marko1616/marko-riscv.git
+MCP-Chinese-Getting-Started-Guide: git@github.com:liaokongVFX/MCP-Chinese-Getting-Started-Guide.git
+mcp_servers: git@github.com:modelcontextprotocol/servers.git
+meilisearch: git@github.com:meilisearch/meilisearch.git
+mihomo-party: git@github.com:mihomo-party-org/mihomo-party.git
+ms_vscode: git@github.com:microsoft/vscode.git
+mysql-server: git@github.com:mysql/mysql-server.git
+mysql-shell: git@github.com:mysql/mysql-shell.git
+OpenClash: git@github.com:vernesong/OpenClash.git
+PicGo: git@github.com:Molunerfinn/PicGo.git
+qemu: git@gitlab.com:qemu-project/qemu.git
+QwenLong-L1: git@github.com:Tongyi-Zhiwen/QwenLong-L1.git
+raylib: https://github.com/raysan5/raylib.git
+redis: git@github.com:redis/redis.git
+rofi: git@github.com:davatorium/rofi.git
+rust-raspberrypi-OS-tutorials: git@github.com:lr00rl/rust-raspberrypi-OS-tutorials.git
+searxng: git@github.com:searxng/searxng.git
+seeks: git@github.com:beniz/seeks.git
+SillyTavern: git@github.com:SillyTavern/SillyTavern.git
+sing-box: git@github.com:SagerNet/sing-box.git
+slock: https://git.suckless.org/slock
+sowon: git@github.com:lr00rl/sowon.git
+sqlite: git@github.com:sqlite/sqlite.git
+sqlite_amalgamation: git@github.com:lr00rl/sqlite_amalgamation.git
+st_cdcd: git@github.com:lr00rl/st_cdcd.git
+sysproxy-rs: https://github.com/zzzgydi/sysproxy-rs
+tantivy: git@github.com:quickwit-oss/tantivy.git
+tdesktop: git@github.com:telegramdesktop/tdesktop.git
+tinydb: git@github.com:msiemens/tinydb.git
+uARM: git@github.com:lr00rl/uARM.git
+viu: git@github.com:atanunq/viu.git
+wiredtiger: git@github.com:wiredtiger/wiredtiger.git
+wrk: git@github.com:wg/wrk.git
+xbps: https://github.com/void-linux/xbps
+youtube-dl: git@github.com:ytdl-org/youtube-dl.git
+```
