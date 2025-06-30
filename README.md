@@ -15,6 +15,7 @@
     - git-delta
 - tmux
 - btop
+    - `curl -L https://github.com/aristocratos/btop/releases/download/v1.4.3/btop-x86_64-linux-musl.tbz | sudo tar -xjC /tmp && sudo cp /tmp/btop/bin/btop /usr/local/bin/ && sudo chmod +x /usr/local/bin/btop`
 - kitty: `curl -L https://sw.kovidgoyal.net/kitty/installer.sh | sh /dev/stdin`
 - wezterm: https://github.com/wezterm/wezterm?tab=readme-ov-file
     - give it up for now[2025-05-01], it is so much slow and not smooth than kitty, not even ghostty
@@ -47,6 +48,34 @@
     - github pages: https://github.com/alacritty/alacritty
     - official website: https://alacritty.org/
 - cadaver: command line WebDAV client
+- mednafen: https://mednafen.github.io/
+    > Mednafen是一个多系统游戏模拟器，让你能在现代电脑上运行经典游戏机的游戏。
+    > 多平台支持：可以模拟17个不同的游戏系统，从任天堂的Game Boy、NES、SNES，到世嘉的Genesis、Saturn，再到索尼的PlayStation等
+    > 跨平台：使用OpenGL和SDL技术，可以在不同操作系统上运行
+    > 命令行驱动：通过命令行参数来配置和使用
+    > 灵活控制：支持键盘和手柄操作，可以自定义按键映射
+    > 实用功能：
+    >   - 即时存档（Save States）
+    >   - 实时倒带功能
+    >   - PNG格式截图
+    >   - QuickTime格式录像
+    > 
+    > 需要注意的是，虽然模拟器本身是合法的，但你需要合法获得游戏ROM文件才能玩游戏。
+    - [mednaffe](https://github.com/AmatCoder/mednaffe): Mednaffe 是Mednafen的图形界面frontend.
+    - you can directly install them by `sudo apt install mednafen mednaffe`
+    - > for the ROM game files, you can check: https://www.retrowan.com/
+- viu: A command-line image viewer written in Rust.
+    - `sudo apt install viu`
+    - `viu --help` for usage
+- chafa: A command-line image to ASCII converter.: https://github.com/hpjansson/chafa
+    - `sudo apt install chafa`
+    - `chafa --help` for usage
+
+
+## Play Games
+- VVVVVV
+    - https://github.com/TerryCavanagh/VVVVVV.git
+
 
 
 ## from npm
