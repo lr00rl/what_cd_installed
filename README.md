@@ -70,6 +70,21 @@
 - chafa: A command-line image to ASCII converter.: https://github.com/hpjansson/chafa
     - `sudo apt install chafa`
     - `chafa --help` for usage
+- wrk: A command-line tool for generating and managing workspaces.
+    - `sudo apt install wrk`
+    - `wrk --help` for usage
+- duf: A disk usage utility that provides a more user-friendly output than the traditional `df` command.
+    - `sudo apt install duf`
+    - `duf --help` for usage
+- bat: A cat clone with syntax highlighting and Git integration.
+    - `sudo apt install bat`
+    - `bat --help` for usage
+- eza: A modern replacement for `ls` with more features and better defaults.
+    - `sudo apt install eza`
+    - `eza --help` for usage
+- just: A command runner that helps you write and run commands in a more organized way.
+    - `sudo apt install just`
+    - `just --help` for usage
 
 
 ## Play Games
@@ -111,12 +126,22 @@
 - Neovide: https://github.com/neovide/neovide
     - `sudo ln -s /opt/Neovide/neovide.AppImage /usr/local/bin/neovide`
 - zed: `curl -f https://zed.dev/install.sh | sh`
+- vegeta: `wget https://github.com/tsenart/vegeta/releases/download/v12.12.0/vegeta_12.12.0_linux_amd64.tar.gz;tar -xzf vegeta_12.12.0_linux_amd64.tar.gz;sudo mv vegeta /usr/local/bin/`
+- mc: minio client
+    - `wget https://dl.min.io/client/mc/release/linux-amd64/mc;sudo mv mc /usr/local/bin/`
+    - `mc alias set myminio http://localhost:9000 YOUR_ACCESS_KEY YOUR_SECRET_KEY`
+- xan: The CSV magician [https://github.com/medialab/xan]
+    - install: `cargo install xan --locked`
 
 
 ## compiled myself
 
 - youtube-dl: https://github.com/ytdl-org/youtube-dl
     - make yourself
+- yazi: 💥 Blazing fast terminal file manager written in Rust, based on async I/O.
+    - https://github.com/sxyazi/yazi
+- st-flexipatch: An st build with preprocessor directives to decide which patches to include during build time
+    - https://github.com/bakkeby/st-flexipatch
 
 
 ## equipped by default (mostly)
@@ -144,6 +169,7 @@
 - lzop: lzop is a file compressor very similar to gzip.  lzop favors speed over compression ratio.
 - sed
 - sh
+- gio: GIO is a library that provides a modern and easy-to-use API for file I/O, network communication, and other system services.
 
 
 ## Blogs
