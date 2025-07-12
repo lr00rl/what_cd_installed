@@ -40,6 +40,8 @@
 - nvtop
 - flameshot: use Snipaste instead
 - copyq: used for clipboard manager, but it is sucks, use fcitx5-rime instead
+    - 这个可以结合 rofi 来实现系统剪切板，然后后续还可以再自定义，然后实现多设备剪切板同步
+    - 注意，如果启用这个可以添加到用户服务中；并且注意需要禁用 `fcitx5-clipboard`，否则会冲突
 - cloc
 - ffmpeg
 - vlc
@@ -85,6 +87,8 @@
 - just: A command runner that helps you write and run commands in a more organized way.
     - `sudo apt install just`
     - `just --help` for usage
+- caddy: Fast and extensible multi-platform HTTP/1-2-3 web server with automatic HTTPS
+    - https://github.com/caddyserver/caddy
 
 
 ## Play Games
@@ -132,6 +136,9 @@
     - `mc alias set myminio http://localhost:9000 YOUR_ACCESS_KEY YOUR_SECRET_KEY`
 - xan: The CSV magician [https://github.com/medialab/xan]
     - install: `cargo install xan --locked`
+- rclone: A command-line program to manage files on cloud storage.
+    - `curl https://rclone.org/install.sh | sudo bash`
+    - `rclone config` to configure
 
 
 ## compiled myself
