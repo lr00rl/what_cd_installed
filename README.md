@@ -89,6 +89,21 @@
     - `just --help` for usage
 - caddy: Fast and extensible multi-platform HTTP/1-2-3 web server with automatic HTTPS
     - https://github.com/caddyserver/caddy
+- aria2: A lightweight and fast download utility that supports multiple protocols.
+    - `sudo apt install aria2`
+    - `aria2c --help` for usage
+- network-tools:
+    - wireshark
+    - tshark
+    - tcpdump
+    - iftop
+    - nethogs
+    - nload
+    - bmon
+    - slurm
+- lftp: A sophisticated file transfer program that supports a number of network protocols.
+    - `sudo apt install lftp`
+    - `lftp --help` for usage
 
 
 ## Play Games
@@ -139,6 +154,14 @@
 - rclone: A command-line program to manage files on cloud storage.
     - `curl https://rclone.org/install.sh | sudo bash`
     - `rclone config` to configure
+- duckdb: DuckDB is an analytical in-process SQL database management system
+    - `curl https://install.duckdb.org | sh`
+- dasel: Select, put and delete data from JSON, TOML, YAML, XML and CSV files with a single tool. Supports conversion between formats and can be used as a Go package.
+    - `go install github.com/tomwright/dasel/v2/cmd/dasel@master`
+    - or
+    - > `curl -sSLf "$(curl -sSLf https://api.github.com/repos/tomwright/dasel/releases/latest | grep browser_download_url | grep linux_amd64 | grep -v .gz | cut -d\" -f 4)" -L -o dasel && chmod +x dasel`
+      > 
+      > `mv ./dasel /usr/local/bin/dasel`
 
 
 ## compiled myself
