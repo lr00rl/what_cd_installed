@@ -104,6 +104,9 @@
 - lftp: A sophisticated file transfer program that supports a number of network protocols.
     - `sudo apt install lftp`
     - `lftp --help` for usage
+- wmctrl: A command-line tool to interact with an X Window Manager.
+    - `sudo apt install wmctrl`
+    - `wmctrl --help` for usage
 
 
 ## Play Games
@@ -162,6 +165,13 @@
     - > `curl -sSLf "$(curl -sSLf https://api.github.com/repos/tomwright/dasel/releases/latest | grep browser_download_url | grep linux_amd64 | grep -v .gz | cut -d\" -f 4)" -L -o dasel && chmod +x dasel`
       > 
       > `mv ./dasel /usr/local/bin/dasel`
+- zoxide: A smarter cd command that learns your habits and helps you navigate your filesystem faster.
+    - `curl -sS https://raw.githubusercontent.com/ajeetdsouza/zoxide/main/install.sh | sh`
+    - `sudo apt install zoxide`
+    - set up for shell: 
+      - for bash: `eval "$(zoxide init bash)"`
+      - for zsh: `eval "$(zoxide init zsh)"`
+      - for fish: `zoxide init fish | source`
 
 
 ## compiled myself
