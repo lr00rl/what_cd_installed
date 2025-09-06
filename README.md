@@ -172,6 +172,15 @@
       - for bash: `eval "$(zoxide init bash)"`
       - for zsh: `eval "$(zoxide init zsh)"`
       - for fish: `zoxide init fish | source`
+- zed: A next-generation text editor for programmers.
+    - `curl -f https://zed.dev/install.sh | sh`
+- atom: A hackable text editor for the 21st Century.
+    - `sudo snap install atom --classic`
+- Sarasa Gothic: 更纱黑体, a beautiful open-source font that supports both Chinese and Latin characters.
+    - `https://github.com/be5invis/Sarasa-Gothic`
+- Moonbitlang:
+    - `https://moonbitlang.org/`
+    - `curl -fsSL https://cli.moonbitlang.com/install/unix.sh | bash`
 
 
 ## compiled myself
