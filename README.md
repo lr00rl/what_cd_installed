@@ -107,6 +107,16 @@
 - wmctrl: A command-line tool to interact with an X Window Manager.
     - `sudo apt install wmctrl`
     - `wmctrl --help` for usage
+- iotop: A top utility for IO
+- fpsync: To demonstrate fpart possibilities, a program called 'fpsync' is
+  provided within the tools/ directory. This tool is a shell script that wraps
+  fpart(1) and rsync(1), cpio(1), pax(1) or tar(1) to launch several
+  synchronization jobs in parallel as presented in the previous section, but
+  while the previous example used GNU Parallel to schedule transfers, fpsync
+      provides its own -embedded- scheduler. It can execute several
+      synchronization processes locally or launch them on several nodes
+      (workers) through SSH.
+    - `sudo apt install fpart`
 
 
 ## Play Games
