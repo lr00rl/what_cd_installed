@@ -61,7 +61,7 @@
     >   - 实时倒带功能
     >   - PNG格式截图
     >   - QuickTime格式录像
-    > 
+    >
     > 需要注意的是，虽然模拟器本身是合法的，但你需要合法获得游戏ROM文件才能玩游戏。
     - [mednaffe](https://github.com/AmatCoder/mednaffe): Mednaffe 是Mednafen的图形界面frontend.
     - you can directly install them by `sudo apt install mednafen mednaffe`
@@ -117,6 +117,21 @@
       synchronization processes locally or launch them on several nodes
       (workers) through SSH.
     - `sudo apt install fpart`
+- kdig:
+    - > # 直接测试各 DNS 服务器的响应时间
+      > # 测 AliDNS (DoT)
+      > time kdig @223.5.5.5 +tls google.com
+      >
+      > # 测 Cloudflare (DoT) - 直连
+      > time kdig @1.1.1.1 +tls google.com
+      >
+      > # 测 Google (DoT) - 直连
+      > time kdig @8.8.8.8 +tls google.com
+    - `sudo apt install knot-dnsutils`
+- myrepos
+- kakoune:
+    - `sudo apt install kakoune`
+    - run: `kak`
 
 
 ## Play Games
@@ -173,12 +188,12 @@
     - `go install github.com/tomwright/dasel/v2/cmd/dasel@master`
     - or
     - > `curl -sSLf "$(curl -sSLf https://api.github.com/repos/tomwright/dasel/releases/latest | grep browser_download_url | grep linux_amd64 | grep -v .gz | cut -d\" -f 4)" -L -o dasel && chmod +x dasel`
-      > 
+      >
       > `mv ./dasel /usr/local/bin/dasel`
 - zoxide: A smarter cd command that learns your habits and helps you navigate your filesystem faster.
     - `curl -sS https://raw.githubusercontent.com/ajeetdsouza/zoxide/main/install.sh | sh`
     - `sudo apt install zoxide`
-    - set up for shell: 
+    - set up for shell:
       - for bash: `eval "$(zoxide init bash)"`
       - for zsh: `eval "$(zoxide init zsh)"`
       - for fish: `zoxide init fish | source`
@@ -191,6 +206,14 @@
 - Moonbitlang:
     - `https://moonbitlang.org/`
     - `curl -fsSL https://cli.moonbitlang.com/install/unix.sh | bash`
+- doggo: `https://github.com/mr-karan/doggo`
+    - `curl -fsSL https://raw.githubusercontent.com/mr-karan/doggo/main/install.sh | sh`
+- nexttrace: `https://github.com/nxtrace/NTrace-core`
+    - `curl -sL nxtrace.org/nt |bash`
+- helix: `https://github.com/helix-editor/helix`
+    - download from release, after dl, use hx to start edit
+- pgtree: `https://github.com/joknarf/pgtree`
+    - download in mac: `brew install joknarf/tools/pgtree`
 
 
 ## compiled myself
@@ -222,6 +245,7 @@
 - fakeroot: run a command in an environment faking root privileges for file manipulation
 - iw: show / manipulate wireless devices and their configuration
 - jq: Command-line JSON processor
+- yq: Command-line YAML processor
 - grep
 - m4: macro processor
 - nc: TCP/IP swiss army knife
@@ -229,6 +253,12 @@
 - sed
 - sh
 - gio: GIO is a library that provides a modern and easy-to-use API for file I/O, network communication, and other system services.
+- iostat: Report Central Processing Unit (CPU) statistics and input/output statistics for devices and partitions.
+    - example: iostat -xdm 1 nvme1n1
+- base64: base64 encode/decode data and print to standard output.
+- perl: The Perl 5 language interpreter.
+    - example: `echo "你好" | perl -MURI::Escape -ne 'print uri_escape($_)'` -> `%E4%BD%A0%E5%A5%BD%0A`
+    - example: `echo %E4%BD%A0%E5%A5%BD%0A | perl -MURI::Escape -ne 'print uri_unescape($_)'`
 
 
 ## Blogs
