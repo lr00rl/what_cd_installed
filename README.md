@@ -214,6 +214,8 @@
     - download from release, after dl, use hx to start edit
 - pgtree: `https://github.com/joknarf/pgtree`
     - download in mac: `brew install joknarf/tools/pgtree`
+- k9s: `https://github.com/derailed/k9s`
+    - download from github release or pkg manager
 
 
 ## compiled myself
