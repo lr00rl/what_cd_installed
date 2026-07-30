@@ -216,6 +216,10 @@
     - download in mac: `brew install joknarf/tools/pgtree`
 - k9s: `https://github.com/derailed/k9s`
     - download from github release or pkg manager
+- hackernews_tui: `https://github.com/aome510/hackernews-TUI`
+    - download from github release or pkg manager
+- circumflex: hacker news viewer
+    - install in mac: `brew install circumflex && clx`
 
 
 ## compiled myself
